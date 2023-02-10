@@ -1,0 +1,101 @@
+<html>
+    <head><title>Practice makes perfect</title>
+    <style>
+         #g{
+        display:grid;
+        width:100%;
+        height:50px;
+        background-color:rgb(224, 224, 224);
+    }
+    nav{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10px;
+        color: black;
+    }
+    nav ul li{
+        list-style-type:none;
+        display: inline-block;
+        padding: 5px 10px;
+    }
+    b{
+        color: rgb(185, 55, 3);
+    }
+    #b{
+        display: grid;
+        width: 100%;
+        height: 125px;
+        background-color: black;
+    }
+    h1{
+        color: white;
+        text-align: center;>
+    }
+    #l{
+        display: grid;
+        width: 100%;
+        height: 200px;
+        background-color: rgb(224, 224, 224);
+    }
+    .achv{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 25vh 34vh;
+        grid-template-areas: "s s s" "sb m sl";
+        height: 500px;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    #m{
+        grid-area: s;
+    }
+    .one{
+        background-color: white;;
+        grid-area:sb;
+        width: 200px;
+    }
+    .two{
+        background-color: white;
+        grid-area: m;
+        width: 200px;
+    }
+    .three{
+        background-color: white;
+        grid-area: sl;
+        width: 200px;
+    }
+    </style>
+    </head>
+    <body>
+        <div id="g">
+            <nav>
+               <b>Name</b>
+               <ul>
+                <li>Home</li>
+                <li>About me</li>
+                <li>Achievements</li>
+                <li>Skills</li>
+                <li>Contacts</li>
+               </ul>
+            </nav>
+        </div>
+        <div id="b">
+            <h1><strike>Practice Makes Perfect</strike><br>Perfect Practice Makes Perfect</h1>
+        </div>
+        <div id="l"><h2>Name</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos quibusdam laboriosam iure ex error nesciunt laborum dolores excepturi, vitae nisi, ab commodi unde laudantium quas esse aliquam quos, eaque culpa?</p></div>
+        <div class="achv">
+
+            <div id="m">
+                 <h5>Achievements</h5>
+                 <p>my project so far</p>
+                <hr>
+                </div>
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+        </div>
+    </body>
+</html>
